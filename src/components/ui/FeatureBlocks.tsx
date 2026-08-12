@@ -43,8 +43,8 @@ export const FeatureBlocks = ({
       />
 
       <div className={textContainerClasses}>
-          <h2 className={h2Classes}>{title}</h2>
-          <p className={pClasses}>{description}</p>
+        <h2 className={h2Classes}>{title}</h2>
+        <p className={pClasses}>{description}</p>
 
         {hasListItems && (
           <ol className="mx-auto w-7/8 list-decimal text-left font-inter text-[4vw] md:text-[2vw] lg:text-[1.7vw] xl:w-5/8 xl:text-[1.3vw] 2xl:text-base">

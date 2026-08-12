@@ -125,14 +125,17 @@ export const MeetAnniePage = () => {
         description={
           <>
             At Pony Rescue Club, children discover the joy of
-            <br className="block lg:hidden" /> riding while<br className="hidden lg:block" /> developing a deep
-            bond with horses and
-            <br className="block lg:hidden" /> learning lifelong<br className="hidden lg:block" /> skills. Based
-            at the beautiful Millwood
-            <br className="block lg:hidden" /> Ranch in Pacifica, Annie<br className="hidden lg:block" /> Erwin’s
-            authentic, ranch-style
-            <br className="block lg:hidden" /> instruction offers a low-<br className="hidden lg:block" />pressure
-            environment built
+            <br className="block lg:hidden" /> riding while
+            <br className="hidden lg:block" /> developing a deep bond with
+            horses and
+            <br className="block lg:hidden" /> learning lifelong
+            <br className="hidden lg:block" /> skills. Based at the beautiful
+            Millwood
+            <br className="block lg:hidden" /> Ranch in Pacifica, Annie
+            <br className="hidden lg:block" /> Erwin’s authentic, ranch-style
+            <br className="block lg:hidden" /> instruction offers a low-
+            <br className="hidden lg:block" />
+            pressure environment built
             <br className="block lg:hidden" /> entirely on safety and fun.
           </>
         }

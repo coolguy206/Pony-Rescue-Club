@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Logo from '@/assets/global/logo.svg';
 import { Link } from 'react-router-dom';
+import { ScrollTop } from '../utils/ScrollTop';
 import menuIcon from '@/assets/global/menu-bars.svg';
 import CloseIcon from '@/assets/global/close.svg';
 
@@ -22,10 +23,6 @@ export function Header() {
     // 4. Clean up the listener when leaving the page
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const scrollTop = () => {
-    window.scrollTo(0, 0);
-  };
 
   return (
     <header
@@ -52,14 +49,14 @@ export function Header() {
             src={Logo}
             alt="Pony Rescue Club Logo"
             className="relative left-[8vw] w-5/8 sm:left-[5vw] md:left-[4vw] lg:left-[3vw] xl:left-[2vw] 2xl:left-0 2xl:w-auto"
-            onClick={scrollTop}
+            onClick={ScrollTop}
           />
         </Link>
 
         <Link
           to="/"
           className="absolute left-1/2 order-2 w-[60vw] -translate-x-1/2 text-center font-inter text-[7vw] md:text-[5vw] xl:text-[4vw] 2xl:hidden"
-          onClick={scrollTop}
+          onClick={ScrollTop}
         >
           Pony Rescue Club
         </Link>
@@ -75,17 +72,17 @@ export function Header() {
       <nav className="hidden 2xl:order-3 2xl:block">
         <ul className="flex font-inter xl:gap-5 xl:text-[24px] 2xl:w-[476px]">
           <li>
-            <Link to="/riding-lessons" className="" onClick={scrollTop}>
+            <Link to="/riding-lessons" className="" onClick={ScrollTop}>
               Riding Lessons
             </Link>
           </li>
           <li>
-            <Link to="/pony-rides" className="" onClick={scrollTop}>
+            <Link to="/pony-rides" className="" onClick={ScrollTop}>
               Pony Rides
             </Link>
           </li>
           <li>
-            <Link to="/horse-camp" className="" onClick={scrollTop}>
+            <Link to="/horse-camp" className="" onClick={ScrollTop}>
               Horse Camp
             </Link>
           </li>
@@ -98,7 +95,7 @@ export function Header() {
         <Link
           to="/"
           onClick={() => {
-            scrollTop();
+            ScrollTop();
             setIsOpen(false);
           }}
         >
@@ -122,7 +119,7 @@ export function Header() {
               to="/riding-lessons"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >
@@ -134,7 +131,7 @@ export function Header() {
               to="/pony-rides"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >
@@ -146,7 +143,7 @@ export function Header() {
               to="/horse-camp"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >
@@ -169,7 +166,7 @@ export function Header() {
               to="/meet-annie"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >
@@ -181,7 +178,7 @@ export function Header() {
               to="/faq"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >
@@ -193,7 +190,7 @@ export function Header() {
               to="/riding-guidelines"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >
@@ -205,7 +202,7 @@ export function Header() {
               to="/contact"
               className=""
               onClick={() => {
-                scrollTop();
+                ScrollTop();
                 setIsOpen(false);
               }}
             >

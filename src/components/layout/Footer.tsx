@@ -1,5 +1,6 @@
 import HorseRidingGraphic from '@/assets/global/horse-riding.svg';
 import { Link } from 'react-router-dom';
+import { ScrollTop } from '../utils/ScrollTop';
 
 export function Footer() {
   const fontSize = {
@@ -32,23 +33,34 @@ export function Footer() {
       <p
         className={`${fontSize.mobile} ${fontSize.sm} ${fontSize.md} ${fontSize.lg} ${fontSize.xl} ${fontSize.xl2}`}
       >
-        <a href="tel:(415) 261-3433">(415) 261-3433</a> | <a href="mailto:runscrapmonkeyrun@gmail@email.com">runscrapmonkeyrun@gmail.com</a>
+        <a href="tel:(415) 261-3433">(415) 261-3433</a> |{' '}
+        <a href="mailto:runscrapmonkeyrun@gmail@email.com">
+          runscrapmonkeyrun@gmail.com
+        </a>
       </p>
       <nav className="hidden xl:block">
         <ul
           className={`${fontSize.mobile} ${fontSize.sm} ${fontSize.md} ${fontSize.lg} ${fontSize.xl} ${fontSize.xl2} flex justify-center xl:gap-5`}
         >
           <li>
-            <Link to="/meet-annie">Meet Annie</Link>
+            <Link to="/meet-annie" onClick={ScrollTop}>
+              Meet Annie
+            </Link>
           </li>
           <li>
-            <Link to="/faq">FAQ</Link>
+            <Link to="/faq" onClick={ScrollTop}>
+              FAQ
+            </Link>
           </li>
           <li>
-            <Link to="/riding-guidelines">Riding Guidelines</Link>
+            <Link to="/riding-guidelines" onClick={ScrollTop}>
+              Riding Guidelines
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={ScrollTop}>
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>
