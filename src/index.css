@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+ #root {
+  max-width: 1728px;
+  margin:0 auto;
+} 
+
+@theme {
+  /* Creates the utility class: font-inter */
+  --font-inter: 'Inter', sans-serif;
+
+  /* Creates the utility class: font-archivo */
+  --font-archivo: 'Archivo Black', sans-serif;
+}
