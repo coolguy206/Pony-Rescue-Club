@@ -1,6 +1,6 @@
 import { Picture } from '@/components/ui/Picture';
-import RiderGuideD from '@/assets/rider-guidelines/rider-guidelines-d.jpg';
-import RiderGuideM from '@/assets/rider-guidelines/rider-guidelines-m.jpg';
+import RiderGuideD from '@/assets/rider-guidelines/rider-guidelines-d.webp';
+import RiderGuideM from '@/assets/rider-guidelines/rider-guidelines-m.webp';
 
 import React from 'react';
 

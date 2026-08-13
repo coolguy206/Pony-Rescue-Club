@@ -1,15 +1,15 @@
 import { SplitSection } from '@/components/ui/SplitSection';
 import { FeatureBlocks } from '@/components/ui/FeatureBlocks';
-import FreePonyRidesD from '@/assets/pony-rides/free-pony-rides-d.jpg';
-import FreePonyRidesM from '@/assets/pony-rides/free-pony-rides-m.jpg';
-import MeetThePoniesD from '@/assets/pony-rides/meet-the-ponies-d.jpg';
-import MeetThePoniesM from '@/assets/pony-rides/meet-the-ponies-m.jpg';
-import HandsOnD from '@/assets/pony-rides/hands-on-learning-d.jpg';
-import HandsOnM from '@/assets/pony-rides/hands-on-learning-m.jpg';
-import TimeInD from '@/assets/pony-rides/time-in-the-saddle-d.jpg';
-import TimeInM from '@/assets/pony-rides/time-in-the-saddle-m.jpg';
-import ImportantD from '@/assets/pony-rides/important-rider-d.jpg';
-import ImportantM from '@/assets/pony-rides/important-rider-m.jpg';
+import FreePonyRidesD from '@/assets/pony-rides/free-pony-rides-d.webp';
+import FreePonyRidesM from '@/assets/pony-rides/free-pony-rides-m.webp';
+import MeetThePoniesD from '@/assets/pony-rides/meet-the-ponies-d.webp';
+import MeetThePoniesM from '@/assets/pony-rides/meet-the-ponies-m.webp';
+import HandsOnD from '@/assets/pony-rides/hands-on-learning-d.webp';
+import HandsOnM from '@/assets/pony-rides/hands-on-learning-m.webp';
+import TimeInD from '@/assets/pony-rides/time-in-the-saddle-d.webp';
+import TimeInM from '@/assets/pony-rides/time-in-the-saddle-m.webp';
+import ImportantD from '@/assets/pony-rides/important-rider-d.webp';
+import ImportantM from '@/assets/pony-rides/important-rider-m.webp';
 
 export const PonyRidesPage = () => {
   const hero = {

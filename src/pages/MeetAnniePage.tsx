@@ -1,11 +1,11 @@
 import { SplitSection } from '@/components/ui/SplitSection';
 import { CTA } from '@/components/ui/CTA';
-import DiscoverD from '@/assets/meet-annie/discover-the-joy-d.jpg';
-import DiscoverM from '@/assets/meet-annie/discover-the-joy-m.jpg';
-import AnnieKidsD from '@/assets/meet-annie/annie-and-the-kids-d.jpg';
-import AnnieKidsM from '@/assets/meet-annie/annie-and-the-kids-m.jpg';
-import AnnieRidersD from '@/assets/meet-annie/annie-and-the-riders-d.jpg';
-import AnnieRidersM from '@/assets/meet-annie/annie-and-the-riders-m.jpg';
+import DiscoverD from '@/assets/meet-annie/discover-the-joy-d.webp';
+import DiscoverM from '@/assets/meet-annie/discover-the-joy-m.webp';
+import AnnieKidsD from '@/assets/meet-annie/annie-and-the-kids-d.webp';
+import AnnieKidsM from '@/assets/meet-annie/annie-and-the-kids-m.webp';
+import AnnieRidersD from '@/assets/meet-annie/annie-and-the-riders-d.webp';
+import AnnieRidersM from '@/assets/meet-annie/annie-and-the-riders-m.webp';
 
 export const MeetAnniePage = () => {
   const hero = {

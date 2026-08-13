@@ -1,6 +1,8 @@
 import HorseRidingGraphic from '@/assets/global/horse-riding.svg';
 import { Link } from 'react-router-dom';
 import { ScrollTop } from '../utils/ScrollTop';
+import { Email } from '../utils/Email';
+import { Phone } from '../utils/Phone';
 
 export function Footer() {
   const fontSize = {
@@ -33,10 +35,7 @@ export function Footer() {
       <p
         className={`${fontSize.mobile} ${fontSize.sm} ${fontSize.md} ${fontSize.lg} ${fontSize.xl} ${fontSize.xl2}`}
       >
-        <a href="tel:(415) 261-3433">(415) 261-3433</a> |{' '}
-        <a href="mailto:runscrapmonkeyrun@gmail@email.com">
-          runscrapmonkeyrun@gmail.com
-        </a>
+        <Phone /> | <Email />
       </p>
       <nav className="hidden xl:block">
         <ul

@@ -1,7 +1,8 @@
 import { Picture } from '@/components/ui/Picture';
 import { CTA } from '@/components/ui/CTA';
-import GetInD from '@/assets/contact/get-in-touch-d.jpg';
-import GetInM from '@/assets/contact/get-in-touch-m.jpg';
+import { Email } from '@/components/utils/Email';
+import GetInD from '@/assets/contact/get-in-touch-d.webp';
+import GetInM from '@/assets/contact/get-in-touch-m.webp';
 
 export function ContactPage() {
   const p = {
@@ -52,7 +53,7 @@ export function ContactPage() {
 
             <CTA
               buttonText="Call or Text Direct: (415) 261-3433"
-              buttonLink="tel:(415) 261-3433"
+              buttonLink="tel:+14152613433"
               newTab={true}
               className="mb-10"
             />
@@ -60,7 +61,7 @@ export function ContactPage() {
             <p
               className={`${p.mobile} ${p.sm} ${p.md} ${p.lg} ${p.xl} ${p.xl2}`}
             >
-              Email Inquiries: runscrapmonkeyrun@gmail.
+              Email Inquiries: <Email />
             </p>
             <p
               className={`${p.mobile} ${p.sm} ${p.md} ${p.lg} ${p.xl} ${p.xl2}`}

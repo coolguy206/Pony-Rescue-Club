@@ -1,13 +1,14 @@
 import { SplitSection } from '@/components/ui/SplitSection';
 import { CTA } from '@/components/ui/CTA';
-import LessonsTailoredD from '@/assets/riding-lessons/lessons-tailored-d.jpg';
-import LessonsTailoredM from '@/assets/riding-lessons/lessons-tailored-m.jpg';
-import EveryRiderD from '@/assets/riding-lessons/every-rider-d.jpg';
-import EveryRiderM from '@/assets/riding-lessons/every-rider-m.jpg';
-import HandsOnD from '@/assets/riding-lessons/hands-on-d.jpg';
-import HandsOnM from '@/assets/riding-lessons/hands-on-m.jpg';
-import ReadyD from '@/assets/riding-lessons/ready-d.jpg';
-import ReadyM from '@/assets/riding-lessons/ready-m.jpg';
+import LessonsTailoredD from '@/assets/riding-lessons/lessons-tailored-d.webp';
+import LessonsTailoredM from '@/assets/riding-lessons/lessons-tailored-m.webp';
+import EveryRiderD from '@/assets/riding-lessons/every-rider-d.webp';
+import EveryRiderM from '@/assets/riding-lessons/every-rider-m.webp';
+import HandsOnD from '@/assets/riding-lessons/hands-on-d.webp';
+import HandsOnM from '@/assets/riding-lessons/hands-on-m.webp';
+import ReadyD from '@/assets/riding-lessons/ready-d.webp';
+import ReadyM from '@/assets/riding-lessons/ready-m.webp';
+import Video from '@/assets/riding-lessons/riding-horse.mp4';
 
 export const RidingLessonsPage = () => {
   const hero = {
@@ -286,11 +287,16 @@ export const RidingLessonsPage = () => {
       </section>
 
       <section className="relative w-full">
-        <video controls poster={ReadyD} className="hidden w-full md:block">
-          Your browser does not support the video tag.
-        </video>
-
-        <video controls poster={ReadyM} className="block w-full md:hidden">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="metadata"
+          poster={ReadyD}
+          className="w-full"
+        >
+          <source src={Video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 

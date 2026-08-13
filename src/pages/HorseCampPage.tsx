@@ -1,11 +1,11 @@
 import { SplitSection } from '@/components/ui/SplitSection';
 import { CTA } from '@/components/ui/CTA';
-import UnforgettableD from '@/assets/horse-camp/unforgettable-week-d.jpg';
-import UnforgettableM from '@/assets/horse-camp/unforgettable-week-m.jpg';
-import CampDetailsD from '@/assets/horse-camp/camp-details-d.jpg';
-import CampDetailsM from '@/assets/horse-camp/camp-details-m.jpg';
-import GearPrepD from '@/assets/horse-camp/gear-prep-d.jpg';
-import GearPrepM from '@/assets/horse-camp/gear-prep-m.jpg';
+import UnforgettableD from '@/assets/horse-camp/unforgettable-week-d.webp';
+import UnforgettableM from '@/assets/horse-camp/unforgettable-week-m.webp';
+import CampDetailsD from '@/assets/horse-camp/camp-details-d.webp';
+import CampDetailsM from '@/assets/horse-camp/camp-details-m.webp';
+import GearPrepD from '@/assets/horse-camp/gear-prep-d.webp';
+import GearPrepM from '@/assets/horse-camp/gear-prep-m.webp';
 
 export const HorseCampPage = () => {
   const hero = {
@@ -211,7 +211,7 @@ export const HorseCampPage = () => {
           </>
         }
         buttonText=" Call or Text (415) 261-3433"
-        buttonLink="tel:(415) 261-3433"
+        buttonLink="tel:+14152613433"
         imagePosition="left"
         imageSrcD={UnforgettableD}
         imageSrcM={UnforgettableM}
@@ -339,7 +339,7 @@ export const HorseCampPage = () => {
         </p>
         <CTA
           buttonText="Call or Text (415) 261-3433"
-          buttonLink="tel:(415) 261-3433"
+          buttonLink="tel:+14152613433"
           newTab={true}
         />
       </section>

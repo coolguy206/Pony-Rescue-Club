@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Picture } from '@/components/ui/Picture';
-import HorseBackD from '@/assets/faq/horse-back-riding-d.jpg';
-import HorseBackM from '@/assets/faq/horse-back-riding-m.jpg';
+import { Phone } from '@/components/utils/Phone';
+import HorseBackD from '@/assets/faq/horse-back-riding-d.webp';
+import HorseBackM from '@/assets/faq/horse-back-riding-m.webp';
 
 type Props = {
   question: React.ReactNode;
@@ -268,7 +269,7 @@ export const FaqPage = () => {
                   <br className="hidden lg:block" />
                   "Get Started" button on this site, or you can call or text
                   Annie
-                  <br className="hidden lg:block" /> directly at (415) 261-3433.
+                  <br className="hidden lg:block" /> directly at <Phone />.
                 </>
               ),
             },

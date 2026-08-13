@@ -2,20 +2,20 @@ import { FeatureBlocks } from '@/components/ui/FeatureBlocks';
 import { SplitSection } from '@/components/ui/SplitSection';
 import { EventCard } from '@/components/ui/EventCard';
 import { CTA } from '@/components/ui/CTA';
-import ridingLessonsD from '@/assets/hp/riding-lessons-d.jpg';
-import ridingLessonsM from '@/assets/hp/riding-lessons-m.jpg';
-import ponyRidesD from '@/assets/hp/pony-rides-d.jpg';
-import ponyRidesM from '@/assets/hp/pony-rides-m.jpg';
-import horseCampD from '@/assets/hp/horse-camp-d.jpg';
-import horseCampM from '@/assets/hp/horse-camp-m.jpg';
-import meetAnnieD from '@/assets/hp/meet-annie-d.jpg';
-import meetAnnieM from '@/assets/hp/meet-annie-m.jpg';
-import getTogether13D from '@/assets/hp/get-together-13-d.jpg';
-import getTogether13M from '@/assets/hp/get-together-13-m.jpg';
-import overnightCampingD from '@/assets/hp/overnight-camping-d.jpg';
-import overnightCampingM from '@/assets/hp/overnight-camping-m.jpg';
-import MHAD from '@/assets/hp/MHA-show-d.jpg';
-import MHAM from '@/assets/hp/MHA-show-m.jpg';
+import ridingLessonsD from '@/assets/hp/riding-lessons-d.webp';
+import ridingLessonsM from '@/assets/hp/riding-lessons-m.webp';
+import ponyRidesD from '@/assets/hp/pony-rides-d.webp';
+import ponyRidesM from '@/assets/hp/pony-rides-m.webp';
+import horseCampD from '@/assets/hp/horse-camp-d.webp';
+import horseCampM from '@/assets/hp/horse-camp-m.webp';
+import meetAnnieD from '@/assets/hp/meet-annie-d.webp';
+import meetAnnieM from '@/assets/hp/meet-annie-m.webp';
+import getTogether13D from '@/assets/hp/get-together-13-d.webp';
+import getTogether13M from '@/assets/hp/get-together-13-m.webp';
+import overnightCampingD from '@/assets/hp/overnight-camping-d.webp';
+import overnightCampingM from '@/assets/hp/overnight-camping-m.webp';
+import MHAD from '@/assets/hp/MHA-show-d.webp';
+import MHAM from '@/assets/hp/MHA-show-m.webp';
 
 export const HomePage = () => {
   const hero = {
