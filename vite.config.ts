@@ -12,6 +12,7 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] }),
   ],
   assetsInclude: ['**/*.mp4', '**/*.webm'],
+  base: '/Pony-Rescue-Club/',
   resolve: {
     alias: {
       // 2. Map '@' directly to your 'src' folder directory
