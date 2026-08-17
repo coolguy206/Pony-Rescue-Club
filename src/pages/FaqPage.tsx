@@ -10,7 +10,7 @@ type Props = {
   open?: boolean;
 };
 
-const Faq = ({ question, answer, open = false }: Props) => {
+const Faq = ({ question, answer }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
