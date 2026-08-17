@@ -191,7 +191,7 @@ export const HomePage = () => {
         pClasses={`${camp.p.mobile} ${camp.p.sm} ${camp.p.md} ${camp.p.lg} ${camp.p.xl} ${camp.p.xl2}`}
       />
 
-      <h2 className="my-20 w-full text-center font-inter text-[8vw] font-bold capitalize md:text-[5vw] xl:text-[3vw] 2xl:text-[40px]">
+      <h2 className="bg-[#5D6615] text-white py-20 mb-5 w-full text-center font-inter text-[8vw] font-bold capitalize md:text-[5vw] xl:text-[3vw] 2xl:text-[40px]">
         recent ranch events
       </h2>
 

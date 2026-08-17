@@ -286,7 +286,7 @@ export const RidingLessonsPage = () => {
         ]}
       />
 
-      <section className="flex w-full flex-wrap justify-center py-20 text-center xl:flex-nowrap xl:items-center xl:gap-5">
+      <section className="bg-[#5D6615] text-white flex w-full flex-wrap justify-center py-20 text-center xl:flex-nowrap xl:items-center xl:gap-5">
         <h2 className="mb-5 w-full font-inter text-[6vw] leading-none font-bold capitalize md:text-[4vw] lg:text-[3vw] xl:m-0 xl:w-1/2 xl:text-right xl:text-[2vw] 2xl:text-[35px]">
           Private & Group Placements
         </h2>

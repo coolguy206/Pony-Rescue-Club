@@ -135,7 +135,7 @@ export const PonyRidesPage = () => {
             life at the stables.
           </>
         }
-        buttonText="Get Directiions"
+        buttonText="Get Directions"
         buttonLink="https://www.google.com/maps/place/Mill-wood+Ranch/@37.5982148,-122.4699261,17z/data=!4m15!1m8!3m7!1s0x808f7098a37b93e3:0x2ac8b9682fbc8206!2s1+Picardo+Ranch,+Pacifica,+CA+94044!3b1!8m2!3d37.5982148!4d-122.4699261!16s%2Fg%2F11r1s87pry!3m5!1s0x808f7098a31e5633:0xefb4873cc640f1b6!8m2!3d37.5981161!4d-122.4699748!16s%2Fg%2F1tdd0xyn?entry=ttu&g_ep=EgoyMDI2MDgwMi4wIKXMDSoASAFQAw%3D%3D"
         imagePosition="left"
         imageSrcD={FreePonyRidesD}
@@ -149,7 +149,7 @@ export const PonyRidesPage = () => {
         pClasses={`${hero.p.mobile} ${hero.p.sm} ${hero.p.md} ${hero.p.lg} ${hero.p.xl} ${hero.p.xl2}`}
       />
 
-      <section className="my-10 w-full">
+      <section className="bg-[#5D6615] text-white py-10 w-full">
         <h2 className="text-center font-inter text-[7vw] leading-tight font-bold md:text-[4vw] xl:text-[3vw] 2xl:text-[40px]">
           Saddle Up for Smiles:
           <br /> Experience the Joy of

@@ -66,9 +66,9 @@ export const MeetAnniePage = () => {
 
   const annieKids = {
     section: {
-      mobile: `relative flex w-full flex-wrap bg-[#FDE6C6] md:bg-white`,
+      mobile: `relative flex w-full flex-wrap bg-[#FDE6C6]`,
       sm: ``,
-      md: ``,
+      md: `md:bg-[#5D6615] md:text-white`,
       lg: ``,
       xl: ``,
       xl2: ``,
@@ -228,7 +228,7 @@ export const MeetAnniePage = () => {
         imageAlt="Pony Rescue Club"
         imagePosition="left"
         breakPoint="1024px"
-        sectionClasses={`${annieKids.section.mobile} ${annieKids.section.sm} ${annieKids.section.md} ${annieKids.section.lg} ${annieKids.section.xl} ${annieKids.section.xl2} bg-white md:!bg-[#FDE6C6]`}
+        sectionClasses={`${annieKids.section.mobile} ${annieKids.section.sm} ${annieKids.section.md} ${annieKids.section.lg} ${annieKids.section.xl} ${annieKids.section.xl2} bg-white md:!bg-[#FDE6C6] md:!text-black`}
         textContainerClasses={`${annieKids.textContainer.mobile} ${annieKids.textContainer.sm} ${annieKids.textContainer.md} ${annieKids.textContainer.lg} ${annieKids.textContainer.xl} ${annieKids.textContainer.xl2} h-[90vw]`}
         imageContainerClasses={`${annieKids.imageContainer.mobile} ${annieKids.imageContainer.sm} ${annieKids.imageContainer.md} ${annieKids.imageContainer.lg} ${annieKids.imageContainer.xl} ${annieKids.imageContainer.xl2}`}
         pClasses={`${annieKids.p.mobile} ${annieKids.p.sm} ${annieKids.p.md} ${annieKids.p.lg} ${annieKids.p.xl} ${annieKids.p.xl2}`}
