@@ -41,7 +41,7 @@ export const CTA = ({
   return (
     <Link
       to={buttonLink}
-      className={`inline-flex h-11 items-center justify-center font-inter xl:h-12 ${backgroundColor} ${borders} px-7 font-bold text-[4vw] xl:text-[24px] ${textColor} ${className}`}
+      className={`inline-flex h-11 items-center justify-center font-inter xl:h-12 ${backgroundColor} ${borders} px-7 font-bold text-[4vw] md:text-[2vw] xl:text-[24px] ${textColor} ${className}`}
       target={newTab ? '_blank' : undefined}
       rel={newTab ? 'noopener noreferrer' : undefined}
       onClick={handleClick}

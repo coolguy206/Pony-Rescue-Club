@@ -41,11 +41,11 @@ export function Header() {
           <img src={menuIcon} alt="Mobile Menu Icon" className="w-3/4" />
         </button>
 
-        <Link to="/" className="order-3 block 2xl:order-1">
+        <Link to="/" className="order-3 2xl:order-1">
           <img
             src={Logo}
             alt="Pony Rescue Club Logo"
-            className="relative left-[8vw] w-1/2 sm:left-[5vw] md:left-[4vw] lg:left-[3vw] xl:left-[2vw] 2xl:left-0 2xl:w-auto"
+            className="relative 2xl:w-auto h-12"
           />
         </Link>
 
