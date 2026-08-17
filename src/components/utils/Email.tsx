@@ -1,17 +1,15 @@
-export const Email = () => {
+interface EmailProps {
+  className?: string;
+}
+
+export function Email({ className }: EmailProps) {
   const user = 'runscrapmonkeyrun';
   const domain = 'gmail.com';
+  const fullEmail = `${user}@${domain}`;
 
   return (
-    <a
-      href="#"
-      onClick={(e) => {
-        e.preventDefault();
-        window.location.href = `mailto:${user}@${domain}`;
-      }}
-    >
-      {/* Renders the text seamlessly for humans via JS execution */}
+    <a href={`mailto:${fullEmail}`} className={className}>
       {user} [at] {domain}
     </a>
   );
-};
+}

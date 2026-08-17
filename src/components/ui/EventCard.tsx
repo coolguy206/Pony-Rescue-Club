@@ -1,5 +1,5 @@
 import { CTA } from '@/components/ui/CTA.tsx';
-import { Picture } from './Picture';
+import { Picture } from '@/components/ui/Picture';
 
 type Props = {
   title: React.ReactNode;

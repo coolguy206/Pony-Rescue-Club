@@ -2,12 +2,12 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { GlobalLayout } from '@/components/layout/GlobalLayout';
 import { HomePage } from '@/pages/HomePage';
 import { RidingLessonsPage } from '@/pages/RidingLessonsPage';
-import { PonyRidesPage } from './pages/PonyRidesPage';
-import { HorseCampPage } from './pages/HorseCampPage';
-import { ContactPage } from './pages/ContactPage';
-import { MeetAnniePage } from './pages/MeetAnniePage';
-import { FaqPage } from './pages/FaqPage';
-import { RidingGuidelinesPage } from './pages/RidingGuidelinesPage';
+import { PonyRidesPage } from '@/pages/PonyRidesPage';
+import { HorseCampPage } from '@/pages/HorseCampPage';
+import { ContactPage } from '@/pages/ContactPage';
+import { MeetAnniePage } from '@/pages/MeetAnniePage';
+import { FaqPage } from '@/pages/FaqPage';
+import { RidingGuidelinesPage } from '@/pages/RidingGuidelinesPage';
 
 const router = createBrowserRouter([
   {

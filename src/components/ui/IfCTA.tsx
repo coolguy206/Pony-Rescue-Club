@@ -1,8 +1,8 @@
 import { CTA } from '@/components/ui/CTA.tsx';
 
 type Props = {
-  buttonText: string;
-  buttonLink: string;
+  buttonText?: string;
+  buttonLink?: string;
   className?: string;
   newTab?: boolean;
   onClick?: () => void;

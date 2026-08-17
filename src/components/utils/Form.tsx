@@ -1,4 +1,4 @@
-import { useState, FormEvent, ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import Close from '@/assets/global/close.svg';
 
 type Props = {
@@ -90,7 +90,7 @@ export const Form = ({ onClose }: Props) => {
         setError(data.message || 'Something went wrong.');
         setResult('');
       }
-    } catch (err) {
+    } catch {
       setError('Network error. Please try again.');
       setResult('');
     }
@@ -213,7 +213,7 @@ export const Form = ({ onClose }: Props) => {
                   name="Experience"
                   required
                   defaultValue=""
-                  className="h-[45px] w-full cursor-pointer appearance-none border-none bg-[#FDE6C6] px-5 outline-none"
+                  className="h-[45px] w-full cursor-pointer border-none bg-[#FDE6C6] px-5 outline-none"
                 >
                   <option value="" disabled hidden>
                     Select an option...
@@ -249,9 +249,11 @@ export const Form = ({ onClose }: Props) => {
                 Submit
               </button>
             </div>
-            <span className="py-10 text-[5vw] font-bold md:text-[3vw] lg:text-[2vw] 2xl:text-[24px]">
-              {result}
+            <span className="text-red py-10 text-[5vw] font-bold md:text-[3vw] lg:text-[2vw] 2xl:text-[24px]">
               {error}
+            </span>
+             <span className="text-green py-10 text-[5vw] font-bold md:text-[3vw] lg:text-[2vw] 2xl:text-[24px]">
+              {result}
             </span>
           </form>
         </div>

@@ -1,11 +1,11 @@
-import { IfImage } from './IfImage';
-import { IfCTA } from './IfCTA';
+import { IfImage } from '@/components/ui/IfImage';
+import { IfCTA } from '@/components/ui/IfCTA';
 
 type Props = {
   title: React.ReactNode;
   description: React.ReactNode;
-  buttonText: string;
-  buttonLink: string;
+  buttonText?: string;
+  buttonLink?: string;
   imageSrcD: string;
   imageSrcM: string;
   imageAlt?: string;
@@ -30,7 +30,7 @@ export const FeatureBlocks = ({
   pClasses = 'font-inter font-base',
   listItems = [],
 }: Props) => {
-  const hasListItems = listItems && listItems.length !== 0;
+  const hasListItems = listItems.length > 0;
 
   return (
     <div className={divContainerClasses}>

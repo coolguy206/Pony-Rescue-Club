@@ -1,12 +1,12 @@
-import { IfImage } from './IfImage';
-import { IfCTA } from './IfCTA';
+import { IfImage } from '@/components/ui/IfImage';
+import { IfCTA } from '@/components/ui/IfCTA';
 
 type Props = {
   title: React.ReactNode;
   subTitle?: React.ReactNode;
   description: React.ReactNode;
-  buttonText: string;
-  buttonLink: string;
+  buttonText?: string;
+  buttonLink?: string;
   imageSrcD: string;
   imageSrcM: string;
   imageAlt?: string;
