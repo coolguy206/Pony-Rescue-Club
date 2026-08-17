@@ -21,6 +21,7 @@ type Props = {
   CTAClasses?: string;
   CTANewTab?: boolean;
   listItems?: React.ReactNode[];
+  onClick?: () => void;
 };
 
 export const SplitSection = ({
@@ -43,6 +44,7 @@ export const SplitSection = ({
   CTAClasses = '',
   CTANewTab = false,
   listItems = [],
+  onClick,
 }: Props) => {
   let imageOrder1, imageOrder2;
   if (imagePosition === 'right') {
@@ -84,6 +86,7 @@ export const SplitSection = ({
             buttonText={buttonText}
             className={CTAClasses}
             newTab={CTANewTab}
+            onClick={onClick}
           />
         </div>
       </div>

@@ -90,7 +90,7 @@ export function Header() {
       </nav>
 
       <nav
-        className={`fixed left-0 z-999 h-full w-full bg-white p-5 text-center transition-all duration-1000 ease-in-out 2xl:hidden ${isOpen ? 'top-0' : '-top-full'}`}
+        className={`fixed overflow-y-auto left-0 z-999 h-full w-full bg-white p-5 text-center transition-all duration-1000 ease-in-out 2xl:hidden ${isOpen ? 'top-0' : '-top-full'}`}
       >
         <Link
           to="/"

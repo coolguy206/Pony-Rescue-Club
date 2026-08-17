@@ -5,6 +5,7 @@ type Props = {
   buttonLink: string;
   className?: string;
   newTab?: boolean;
+  onClick?: () => void;
 };
 
 export const IfCTA = ({
@@ -12,6 +13,7 @@ export const IfCTA = ({
   buttonLink,
   className = '',
   newTab = false,
+  onClick,
 }: Props) => {
   const hasValidCTA =
     buttonText !== undefined &&
@@ -29,6 +31,7 @@ export const IfCTA = ({
           buttonLink={buttonLink}
           className={className}
           newTab={newTab}
+          onClick={onClick}
         />
       )}
     </>

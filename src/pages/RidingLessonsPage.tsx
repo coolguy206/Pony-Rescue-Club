@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { SplitSection } from '@/components/ui/SplitSection';
 import { CTA } from '@/components/ui/CTA';
+import { Form } from '@/components/utils/Form';
 import LessonsTailoredD from '@/assets/riding-lessons/lessons-tailored-d.webp';
 import LessonsTailoredM from '@/assets/riding-lessons/lessons-tailored-m.webp';
 import EveryRiderD from '@/assets/riding-lessons/every-rider-d.webp';
@@ -7,10 +9,20 @@ import EveryRiderM from '@/assets/riding-lessons/every-rider-m.webp';
 import HandsOnD from '@/assets/riding-lessons/hands-on-d.webp';
 import HandsOnM from '@/assets/riding-lessons/hands-on-m.webp';
 import ReadyD from '@/assets/riding-lessons/ready-d.webp';
-import ReadyM from '@/assets/riding-lessons/ready-m.webp';
 import Video from '@/assets/riding-lessons/riding-horse.mp4';
 
 export const RidingLessonsPage = () => {
+  // 1. Create a state to track if the form modal is open or closed
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  // 2. Helper functions to open and close the form
+  const openForm = () => {
+    setIsFormOpen(true);
+  };
+  const closeForm = () => {
+    setIsFormOpen(false);
+  };
+
   const hero = {
     section: {
       mobile: `relative flex w-full flex-wrap`,
@@ -134,6 +146,8 @@ export const RidingLessonsPage = () => {
 
   return (
     <>
+      {isFormOpen && <Form onClose={closeForm} />}
+
       <SplitSection
         title={
           <>
@@ -150,7 +164,7 @@ export const RidingLessonsPage = () => {
           </>
         }
         buttonText="Get Started"
-        buttonLink="/"
+        buttonLink="#"
         imageSrcD={LessonsTailoredD}
         imageSrcM={LessonsTailoredM}
         imageAlt="kids on horses smiling with a view of trees behind them"
@@ -162,6 +176,7 @@ export const RidingLessonsPage = () => {
         h2Classes={`${hero.h2.mobile} ${hero.h2.sm} ${hero.h2.md} ${hero.h2.lg} ${hero.h2.xl} ${hero.h2.xl2}`}
         pClasses={`${hero.p.mobile} ${hero.p.sm} ${hero.p.md} ${hero.p.lg} ${hero.p.xl} ${hero.p.xl2}`}
         CTAClasses={`${hero.cta.mobile} ${hero.cta.sm} ${hero.cta.md} ${hero.cta.lg} ${hero.cta.xl} ${hero.cta.xl2}`}
+        onClick={openForm}
       />
 
       <SplitSection
@@ -316,7 +331,12 @@ export const RidingLessonsPage = () => {
               <br className="block lg:hidden" /> discover true horsemanship at
               Millwood Ranch.
             </p>
-            <CTA buttonText="Get Started" buttonLink="/" className="mx-auto" />
+            <CTA
+              buttonText="Get Started"
+              buttonLink="#"
+              className="mx-auto"
+              onClick={openForm}
+            />
           </div>
         </div>
       </section>
