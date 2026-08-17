@@ -36,7 +36,7 @@ export function Footer() {
       <p
         className={footerTextClass}
       >
-        <Phone /> | <Email />
+        <Phone /> <br className="inline sm:hidden" /> <span className="hidden sm:inline">|</span> <Email />
       </p>
       <nav className="hidden xl:block">
         <ul

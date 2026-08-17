@@ -45,7 +45,7 @@ export function Header() {
           <img
             src={Logo}
             alt="Pony Rescue Club Logo"
-            className="relative left-[8vw] w-5/8 sm:left-[5vw] md:left-[4vw] lg:left-[3vw] xl:left-[2vw] 2xl:left-0 2xl:w-auto"
+            className="relative left-[8vw] w-1/2 sm:left-[5vw] md:left-[4vw] lg:left-[3vw] xl:left-[2vw] 2xl:left-0 2xl:w-auto"
           />
         </Link>
 

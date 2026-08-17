@@ -32,7 +32,7 @@ export function ContactPage() {
       <section className="w-full bg-[#FDE6C6] lg:flex">
         <div className="items-center p-5 text-center lg:flex lg:w-1/2">
           <div className="w-full">
-            <h2 className="mb-5 font-inter text-[5vw] font-bold md:text-[3vw] lg:text-[2vw] 2xl:text-[32px]">
+            <h2 className="mb-5 font-inter text-[4vw] font-bold md:text-[3vw] lg:text-[2vw] 2xl:text-[32px]">
               Have questions about lessons, pony
               <br className="" /> rides, or upcoming summer camps?
             </h2>

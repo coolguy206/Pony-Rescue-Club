@@ -55,7 +55,7 @@ export const MeetAnniePage = () => {
     },
 
     p: {
-      mobile: `mx-auto w-full font-inter text-[3.9vw] leading-tight`,
+      mobile: `mx-auto w-full font-inter text-[3.8vw] leading-tight`,
       sm: ``,
       md: `md:text-[1.9vw]`,
       lg: `lg:text-[1.4vw]`,
