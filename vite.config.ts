@@ -13,6 +13,9 @@ export default defineConfig({
   ],
   assetsInclude: ['**/*.mp4', '**/*.webm'],
   base: '/Pony-Rescue-Club/',
+  build: {
+    outDir: 'docs',
+  },
   resolve: {
     alias: {
       // 2. Map '@' directly to your 'src' folder directory
